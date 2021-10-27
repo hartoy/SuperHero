@@ -1,0 +1,24 @@
+
+.cardBodySresults{
+    text-align: center;  
+    background-image: url("https://www.photography-backdrops.co.uk/images/product_images/fun119web.jpg");
+}
+
+
+
+.botonetaSearch{
+    background-color:#FF0000;
+    border-color:#FF0000;
+    margin-right: 10px;
+}
+.botonetaSearch:hover{
+    background-color:black;
+}
+
+
+.validator{
+    color:white;
+    text-align:center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

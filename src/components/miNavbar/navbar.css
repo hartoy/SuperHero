@@ -1,0 +1,30 @@
+.searchButton{
+    margin-left: 10px;
+    color: white;
+    background-color:#C8102E; 
+    border-color: #C8102E;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.searchButton:hover{
+    background-color:#FF0000;
+    border-color: #FF0000; 
+}
+
+
+.navbar{
+    margin-bottom: 15px;
+    background: rgba(108, 122, 137, .6);
+    display:flex;
+}
+
+.superhero{
+    font-family: 'Bungee Shade', cursive;
+    font-size: 25px;
+    color:white !important;
+}
+
+.superherohover{
+    color: red !important;
+}
+

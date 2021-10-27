@@ -1,0 +1,95 @@
+.home{
+    margin-bottom: 60px;
+}
+.teamStats {
+    color:white;
+    background: rgba(255, 255, 255, .4);
+    text-align: center; 
+    margin-bottom: 25px;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.teamStatsTitle{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 25px;
+}
+
+ul.teamList {
+    list-style-type: none;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+ul.teamList li{
+  width: auto;
+  float: left;
+  margin-right: 60px;
+  
+}
+
+
+.teamStatus{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.teamReady{
+    color:white;
+    background-color: green;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.teamIncomplete{
+    color:white;
+    background-color: red;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Exo', sans-serif;
+    margin: 25px;
+}
+.card{
+    margin-bottom: 10px;
+    text-align:center;
+}
+.card-body{
+    background-image: url("data:image/jpeg;base64,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");
+    background-position: center;
+    background-size:cover;
+}
+.card-title{
+    font-size:25px;
+    text-align:center;
+    font-family: 'Permanent Marker', cursive;
+}
+.card-text{
+    font-family: 'Exo', sans-serif;
+}
+.myHeroId{
+    display:none;
+}
+
+.heroeStats{
+    text-align:left;
+}
+
+.botoneta{
+    background-color:#FF0000;
+    border-color:#FF0000;
+    margin-right: 25px;
+    text-align:center;
+}
+
+.botoneta:hover{
+    background-color:black;
+}
+
+.misBotones{
+    text-align: center;
+}

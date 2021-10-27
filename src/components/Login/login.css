@@ -1,0 +1,93 @@
+body{
+    background-image: url("https://www.wallpapertip.com/wmimgs/35-353460_marvel-cinematic-universe-heroes.jpg");
+    background-size:cover;
+}
+.logTitle{
+
+     margin-top: 100px;
+     font-size: 65px;
+     text-align: center;
+     margin-left: -15px;
+}
+
+.subText{
+    font-size: 25px;
+    text-align: center;
+    color:white;
+}
+.form{
+    color:black;
+    margin-top:200px;
+    background: rgba(255, 255, 255, .4);
+    padding: 45px;
+    width: 45%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;  
+    font-family: 'PT Sans Caption', sans-serif;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+
+.boton{
+    text-align:center;
+    width: 25%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block; 
+    background-color:#FF0000;
+    border-color: #FF0000;;
+    background-position: center -49%;
+    color: white;
+    font-weight: bold;
+}
+
+.boton:hover{
+    background-color:#C8102E; 
+    border-color: #C8102E;
+}
+
+.cargando{
+    text-align: center;
+    color: white;
+    background:rgb(60, 60, 60, .8);
+    border-radius: 25px;
+    width:40%;
+    margin-top: 20px !important;
+    font-size: 25px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+
+@media (max-width: 414px) {
+    
+    body{
+        background-image: url("https://i.pinimg.com/originals/57/8d/bf/578dbfc2623677c6e0c524934cb4b7a8.jpg");
+    }
+    .logTitle{
+
+        margin-top: 75px;
+        font-size: 40px;
+        text-align: center;
+        margin-left: auto;
+   }
+   
+   .subText{
+       font-size: 25px;
+       text-align: center;
+       color:white;
+   }
+    .form{
+        width: 90%;
+        margin-top:90px;
+    }
+    .boton{
+        width: 40%;
+    }
+    .cargando{
+        font-size:15px;
+        width: 90%;
+    }  
+    }

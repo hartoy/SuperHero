@@ -1,0 +1,36 @@
+.detalleHeroe{
+    background-color: yellow;
+    color:black;
+    padding:30px;
+    text-align: center;
+    border-radius: 25px;
+    margin: 5px;
+}
+
+.imgHero{
+    width:100%;
+    margin-bottom:25px;
+}
+
+
+.titleHero{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.detailseHero{
+    font-family: 'Exo', sans-serif;
+    font-size: 25px;
+    text-align: left;
+}
+
+
+@media (max-width: 414px) {
+    
+
+    .detailseHero{
+        font-size: 15px;
+    }
+     
+    }

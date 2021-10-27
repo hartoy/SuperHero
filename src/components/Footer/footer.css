@@ -1,0 +1,13 @@
+.footer{
+    color: white;
+    font-family: 'Exo', sans-serif;
+    background: rgba(108, 122, 137, .6);
+    width: 100%;
+    height:50px;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    bottom:0;
+    clear:both;
+    z-index:0;
+}

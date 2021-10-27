@@ -1,0 +1,46 @@
+.sinPermiso{
+    background: rgba(255, 255, 255, .4);
+    text-align: center;
+    margin-top: 125px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.sinPermiso img{
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+
+.sorry{
+    font-family: 'PT Sans Caption', sans-serif;
+    color: black;
+}
+
+
+@media (max-width: 414px) {
+    
+
+    .sinPermiso{
+        border-radius: 0px;
+        margin-top:150px;
+    }
+      
+    .sorry{
+        font-family: 'PT Sans Caption', sans-serif;
+        color: black;
+        font-size:20px;
+    }
+
+    .sinPermiso img{
+        width: 100%;
+        text-align: center;
+        border-radius: 25px;
+        margin-top: 15px;
+    }
+
+    }
